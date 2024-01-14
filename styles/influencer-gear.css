@@ -115,6 +115,7 @@ main {
 .logos {
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     justify-content: center;
 }
@@ -134,7 +135,7 @@ main {
 }
 
 main .collection {
-    margin-top: 50px;
+    margin-top: 100px;
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
@@ -162,6 +163,8 @@ main .collection .container .content {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 4%;
+    text-align: left;
 }
 
 main .collection .container .content .name {
@@ -286,6 +289,14 @@ main .collection .container .content .additional {
         width: 70px;
     }
 
+    main .collection {
+        width: 88%;
+    }
+
+    main .collection .container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1%;
+    }
 }
 
 /* responsive for common tablets */
@@ -337,4 +348,11 @@ main .collection .container .content .additional {
         width: 80px;
     }
 
+    main .collection {
+        width: 95%;
+    }
+
+    main .collection .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
