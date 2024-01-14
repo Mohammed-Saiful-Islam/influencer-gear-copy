@@ -275,6 +275,58 @@ main .featured .text .btn {
     padding: 5px 10px;
 }
 
+footer {
+    background: #0A0826;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .text .title {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer .text .copyright {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.footer .text .all-rights {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.footer .icons {
+    width: 5%;
+    display: flex;
+}
+
 /* responsive for common mobiles */
 @media screen and (max-width:576px) {
 
