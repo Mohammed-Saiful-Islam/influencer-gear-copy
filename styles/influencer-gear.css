@@ -5,32 +5,39 @@
 }
 
 /* header styles */
+img {
+    width: 100%;
+}
+
 header {
     width: 90%;
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 60px;
 }
 
-header nav {
+header nav .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-header nav .title {
+header nav .title h2 {
     color: #3A3A3A;
     font-family: Poppins;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-header nav .links-and-icons {
+header nav .links-icons {
     gap: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header nav .links-and-icons a {
+header nav .container .links-icons .links a {
+    margin-left: 35px;
     color: #3A3A3A;
     font-family: Poppins;
     font-size: 1rem;
@@ -38,10 +45,55 @@ header nav .links-and-icons a {
     text-decoration: none;
 }
 
-header nav .links-and-icons .search {
+header nav .container .links-icons .icons {
+    display: flex;
+    align-items: center;
+}
+
+header nav .container .links-icons .icons .search {
     width: 24px;
 }
 
-header nav .links-and-icons .shopping-cart {
+header nav .container .links-icons .icons .shopping-cart {
     width: 36px;
+    margin-left: 35px;
+}
+
+@media screen and (max-width:576px) {
+
+    header {
+        margin-top: 35px;
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .links-icons {
+        flex-direction: column;
+    }
+
+
+    .links {
+        display: flex;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
 }
