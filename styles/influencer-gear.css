@@ -122,7 +122,6 @@ header nav .container .links-icons .icons .shopping-cart {
         flex-direction: column;
     }
 
-
     .links {
         display: flex;
         text-align: center;
@@ -131,11 +130,14 @@ header nav .container .links-icons .icons .shopping-cart {
     .header {
         flex-direction: column-reverse;
         text-align: center;
+        gap: 0;
     }
 
     .header .text-btn {
         width: 100%;
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
     .header .text-btn p {
@@ -144,6 +146,16 @@ header nav .container .links-icons .icons .shopping-cart {
         margin-bottom: 10px;
     }
 
+    .header .img {
+        width: 100%;
+        background-size: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header .img img {
+        width: 80%;
+    }
 
 }
 
@@ -155,6 +167,20 @@ header nav .container .links-icons .icons .shopping-cart {
     .title {
         text-align: center;
         margin-bottom: 10px;
+    }
+
+    .header .text-btn h1 {
+        font-size: 2rem;
+        line-height: 33px;
+    }
+
+    .header .text-btn p {
+        line-height: 22px;
+    }
+
+    .header .img {
+        width: 100%;
+        background-size: 100%;
     }
 
 }
