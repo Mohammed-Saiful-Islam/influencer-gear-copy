@@ -139,6 +139,7 @@ main .collection {
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 main .collection .title {
@@ -205,6 +206,71 @@ main .collection .container .content .additional {
     line-height: 143%;
     /* 20.02px */
     letter-spacing: 0.252px;
+}
+
+main .collection .btn {
+    color: rgba(224, 44, 109, 0.87);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: 45%;
+    top: 75px;
+
+}
+
+main .featured {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .featured .text {
+    padding: 5%;
+    text-align: left;
+    width: 60%;
+}
+
+main .featured .text .title {
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 157.895% */
+}
+
+main .featured .text .details {
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+}
+
+main .featured .text .btn {
+    background: #E02C6D;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 10px;
 }
 
 /* responsive for common mobiles */
@@ -354,5 +420,11 @@ main .collection .container .content .additional {
 
     main .collection .container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    main .collection .btn {
+        position: relative;
+        left: 42%;
+        top: 60px;
     }
 }
