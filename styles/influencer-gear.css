@@ -59,6 +59,50 @@ header nav .container .links-icons .icons .shopping-cart {
     margin-left: 35px;
 }
 
+.header {
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    display: flex;
+    gap: 150px;
+}
+
+.header .text-btn {
+    width: 45%;
+}
+
+.header .text-btn h1 {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 70px;
+    /* 134.615% */
+}
+
+.header .text-btn p {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 100px;
+    margin-bottom: 15px;
+}
+
+.header .text-btn button {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 5px 10px;
+}
+
+.header .img {
+    background-image: url(../images/Circle\ design.svg);
+}
+
 @media screen and (max-width:576px) {
 
     header {
