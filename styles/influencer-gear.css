@@ -139,7 +139,7 @@ main .collection {
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 main .collection .title {
@@ -248,6 +248,7 @@ main .featured .text .title {
     font-weight: 700;
     line-height: 60px;
     /* 157.895% */
+    margin-bottom: 10px;
 }
 
 main .featured .text .details {
@@ -259,6 +260,7 @@ main .featured .text .details {
     font-weight: 700;
     line-height: 28px;
     /* 175% */
+    margin-bottom: 10px;
 }
 
 main .featured .text .btn {
@@ -359,9 +361,33 @@ main .featured .text .btn {
         width: 88%;
     }
 
+    main .collection .btn {
+        position: relative;
+        top: 330px;
+        left: 110px;
+    }
+
     main .collection .container {
         grid-template-columns: repeat(1, 1fr);
         gap: 1%;
+    }
+
+    main .featured {
+        margin-top: 250px;
+        flex-direction: column-reverse;
+    }
+
+    main .featured .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .featured .text .details {
+        margin-bottom: 20px;
+    }
+
+    main .featured .text .btn {
+        margin-bottom: 15px;
     }
 }
 
@@ -426,5 +452,19 @@ main .featured .text .btn {
         position: relative;
         left: 42%;
         top: 60px;
+    }
+
+    main .featured {
+        margin-top: 10px;
+        flex-direction: column-reverse;
+    }
+
+    main .featured .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .featured .img {
+        width: 100%;
     }
 }
