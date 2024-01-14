@@ -277,7 +277,8 @@ main .featured .text .btn {
 
 footer {
     background: #0A0826;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -286,8 +287,11 @@ footer {
 
 .footer {
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .footer .text .title {
@@ -298,6 +302,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 10px;
 }
 
 .footer .text .copyright {
@@ -309,6 +314,7 @@ footer {
     font-weight: 700;
     line-height: 24px;
     /* 171.429% */
+    margin: 5px;
 }
 
 .footer .text .all-rights {
@@ -320,11 +326,14 @@ footer {
     font-weight: 700;
     line-height: 24px;
     /* 171.429% */
+    margin: 20px;
 }
 
 .footer .icons {
-    width: 5%;
+    width: 15%;
     display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* responsive for common mobiles */
